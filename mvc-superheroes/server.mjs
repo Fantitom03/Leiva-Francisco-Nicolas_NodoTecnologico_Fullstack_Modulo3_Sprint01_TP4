@@ -2,7 +2,7 @@ import express from 'express';
 import { obtenerSuperheroePorIdController, buscarSuperheroesPorAtributoController, obtenerSuperheroesMayoresDe30Controller } from './controllers/superheroesController.mjs';
 
 const app = express();
-const PORT = 5000;
+const PORT = 3005;
 
 //Rutas
 app.get('/superheroes/id/:id', obtenerSuperheroePorIdController);
